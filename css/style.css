@@ -1,3 +1,7 @@
+html  {
+  background-size: cover;
+}
+
 #imgpos {
     position: absolute;
     left: 50%;

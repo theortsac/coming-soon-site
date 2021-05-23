@@ -8,13 +8,12 @@ img {
 }
 
 #imgpos {
-  height: 250px;
-  left: 50%;
-  margin-top: -125px;
-  margin-left: -125px;
+  margin: 0;
   position: absolute;
   top: 50%;
-  width: 250px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   }
   body {
     background-color: #5b4e7c;
